@@ -17,7 +17,7 @@ ngrok_url = os.environ["NGROK_URL"]
 
 gen_config = {
     "temperature": 0.5,
-    "max_output_tokens": 512
+    "max_output_tokens": 1024
 }
 gemini_model = genai.GenerativeModel(
     model_name='gemini-1.5-flash',
