@@ -123,7 +123,7 @@ def handle_input():
     if query.strip():
         st.session_state["messages"].append({"role": "user", "content": query})
 
-        with st.spinner("Traitement en cours..."):
+        with st.spinner("Recherche d'articles pertinents..."):
             category = classify_question(query)
             if category == "general_embeddings":
                 response = generate_response_general(query)
