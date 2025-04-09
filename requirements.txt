@@ -1,0 +1,12 @@
+streamlit
+streamlit_chat
+python-dotenv
+google-generativeai
+requests
+transformers
+keras
+tensorflow
+tf-keras
+langchain
+langchain-community
+openai
